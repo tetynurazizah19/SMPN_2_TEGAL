@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smpn2tegal" >
+    package="com.example.smpn2tegal">
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,58 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SMPN2TEGAL" >
+        android:theme="@style/Theme.SMPN2TEGAL">
+        <activity
+            android:name=".lapkomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".albumpmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".albumpramukaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".albumhutriActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="false" />
+        <activity
+            android:name=".pmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pramukaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".buku9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".buku8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".buku7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".perpusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".galeriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fasilitasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ekskulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
