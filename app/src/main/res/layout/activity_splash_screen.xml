@@ -12,9 +12,9 @@
         android:gravity="center">
 
         <ImageView
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="140dp"
-            android:src="@drawable/splashscreen"/>
+            android:src="@drawable/logosmp2"/>
 
         <TextView
             android:layout_width="wrap_content"

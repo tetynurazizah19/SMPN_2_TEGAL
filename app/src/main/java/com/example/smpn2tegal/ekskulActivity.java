@@ -13,8 +13,8 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class ekskulActivity extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.headerprotokol,
-            R.drawable.mainheader,
+    int[] images = {R.drawable.ekskul1,
+            R.drawable.ekskul2,
             R.drawable.headerprotokol,
             R.drawable.headerprotokol,
             R.drawable.headerprotokol};

@@ -275,9 +275,9 @@
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_marginLeft="12dp"
-                        android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/logosmp2"/>
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/logosmp2" />
 
                     <TextView
                         android:layout_width="wrap_content"
