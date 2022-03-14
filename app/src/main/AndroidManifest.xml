@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN2TEGAL">
         <activity
+            android:name=".PerpusActivity"
+            android:exported="false" />
+        <activity
             android:name=".lapkomActivity"
             android:exported="false" />
         <activity
@@ -38,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".buku7Activity"
-            android:exported="false" />
-        <activity
-            android:name=".perpusActivity"
             android:exported="false" />
         <activity
             android:name=".galeriActivity"

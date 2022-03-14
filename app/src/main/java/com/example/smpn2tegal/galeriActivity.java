@@ -25,7 +25,7 @@ public class galeriActivity extends AppCompatActivity {
     }
 
     public void albumpmr(View view) {
-        Intent intent = new Intent(galeriActivity.this, albumpmrActivity.class);
+        Intent intent = new Intent(galeriActivity.this, albumpramukaActivity.class);
         startActivity(intent);
     }
 }

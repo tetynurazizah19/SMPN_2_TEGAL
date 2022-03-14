@@ -284,15 +284,15 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="20dp"
+                        android:text="Sejarah SMP N 2 Tegal "
                         android:textColor="#000"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:text="VISI"/>
+                        android:textStyle="bold" />
 
                     <LinearLayout
-                        android:layout_marginTop="75dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -301,9 +301,79 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:layout_marginBottom="5dp"
+                            android:text="UPTD SMP 2 Tegal, Kota Tegal didirikan pada tanggal 1 Agustus tahun 1958, berlokasi di Jl. Menteri Supeno no 3 Kota Tegal. Sekolah ini didirikan dalam upaya menyediakan pendidikan masyarakat di sekitar kecamatan Tegal Timur yang pada saat itu dalam bidang pendidikan hanya tertampung di UPTD SMP   1 Kota Tegal. "
                             android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text=" Visi Sekolah adalah imajinasi moral yang dijadikan dasar atau rujukan dalam menentukan tujuan atau keadaan masa depan sekolah yang secara khusus diharapkan oleh Sekolah. Visi Sekolah merupakan turunan dari Visi Pendidikan Nasional, yang dijadikan dasar atau rujukan untuk merumuskan Misi, Tujuan sasaran untuk pengembangan sekolah dimasa depan yang diimpikan dan terus terjaga kelangsungan hidup dan perkembangannya."/>
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Tahun demi tahun UPTD SMP 2 Tegal selalu mengalami perkembangan/ kemajuan, baik dari segi kualitas maupun kuantitas . Dari segi kualitas bias diukur dari status akreditasi sekolah yang meningkat terus(dalam akreditasi tahun 2014 akreditasi UPTD SMP 2 adalah A), prestasi akademik maupun non akademik dari siswa-siswinya, serta fasilitas pendukung kegiatan belajar mengajar di sekolah. Dalam bidang akademik, sejak ada Ujian Nasional atau dulu dikenal dengan istilah UN, UPTD SMP  2 Tegal selalu memperoleh peringkat 1 kota Tegal. Hanya 2 kali capaian tersebut tidak tercapai. Dalam bidang non akademik, banyak kegiatan lomba yang dapat diraih oleh UPTD SMP  2 Tegal, misal menjadi juara umum POPDA, MTQ, O2SN, FL2SN dan kegiatan perlombaan perorangan lainnya. "
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Dalam kiprahnya di dunia pendidikan, mulai dari sejak berdirinya sampai dengan saat ini SMPN 2 Tegal telah berhasil mengukir banyak prestasi terutama pada lingkup kecamatan dan kabupaten, baik prestasi akademik maupun non akademik."
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/logosmp2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:text="VISI"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:text=" Visi Sekolah adalah imajinasi moral yang dijadikan dasar atau rujukan dalam menentukan tujuan atau keadaan masa depan sekolah yang secara khusus diharapkan oleh Sekolah. Visi Sekolah merupakan turunan dari Visi Pendidikan Nasional, yang dijadikan dasar atau rujukan untuk merumuskan Misi, Tujuan sasaran untuk pengembangan sekolah dimasa depan yang diimpikan dan terus terjaga kelangsungan hidup dan perkembangannya."
+                            android:textColor="#000"
+                            android:textStyle="bold" />
 
 
                     </LinearLayout>

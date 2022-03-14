@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Perpus(View view) {
-        Intent intent = new Intent(MainActivity.this, perpusActivity.class);
+        Intent intent = new Intent(MainActivity.this, PerpusActivity.class);
         startActivity(intent);
     }
 }
