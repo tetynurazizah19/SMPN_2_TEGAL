@@ -34,7 +34,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/headerprotokol" />
+                        android:src="@drawable/tampilan" />
 
 
                 </ViewFlipper>

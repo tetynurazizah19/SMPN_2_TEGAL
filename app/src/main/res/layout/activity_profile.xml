@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/mainheader"
+                android:src="@drawable/tampilan"
                 android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -426,7 +426,57 @@ Demikian dan terima kasih."
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:layout_marginBottom="5dp"
-                            android:text=" Visi Sekolah adalah imajinasi moral yang dijadikan dasar atau rujukan dalam menentukan tujuan atau keadaan masa depan sekolah yang secara khusus diharapkan oleh Sekolah. Visi Sekolah merupakan turunan dari Visi Pendidikan Nasional, yang dijadikan dasar atau rujukan untuk merumuskan Misi, Tujuan sasaran untuk pengembangan sekolah dimasa depan yang diimpikan dan terus terjaga kelangsungan hidup dan perkembangannya."
+                            android:text=" Terwujudnya Institusi Pendidikan yang Berkualitas dengan Penjaminan Mutu untuk Menciptakan Insan Cerdas, Komprehensif,Kompetitif Insan Berwawasan Lingkungan."
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/logosmp2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:text="MOTO"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:text=" IKHLAS,CERDAS,TUNTAS."
                             android:textColor="#000"
                             android:textStyle="bold" />
 
@@ -533,6 +583,123 @@ Demikian dan terima kasih."
                             android:textColor="#000"
                             android:textStyle="bold"
                             android:text="7.Menciptakan budaya lingkungan yang nyaman, bersih, sehat, selaras, serasi dan seimbang"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logosmp2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="TUJUAN"/>
+
+                    <LinearLayout
+                        android:layout_marginTop="75dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="1.Terlaksananya pengembangan diri dengan kreasi dan inovasi bagi setiap warga sekolah."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="2.Meningkatkan kemampuan pendidikan dan tenaga kependidikan yang profesional dengan memanfaatkan teknologi informasi dalam pemberian layanan,serta menjadi teladan sebagai aparatur sipil negara yang bersih dan berwibawa."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="3.Meningkatkan kualitas kecerdasan spiritual, emosional dan intelektual setiap warga sekolah."/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="4.Terlaksananya kegiatan peserta didik yang berkualitas, berkarakter dan berprestasi tingkat provinsi dan nasional."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="5.Terlaksananya kegiatan peserta didik yang mampu menumbuhkan jiwa wirausaha."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="6.Meningkatkan kesadaran membaca, menulis dan berkreasi setiap warga sekolah sehingga menghasilkan karya cipta inovatif"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="7.Terlaksananya kegiatan kepemimpinan yang mampu menumbuhkan pola pikir dan pola tindak setiap warga sekolah berwawasan global dan kearifan lokal."/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="8.Terlaksananya semua layanan pendidikan yang dapat diakses melalui inteernet."/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="9.Meningkatkan kecerdasan untuk mewujudkan lingkungan sekolah yang nyaman,bersih,searas, serasi dan seimbang."/>
+
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </GridLayout>
