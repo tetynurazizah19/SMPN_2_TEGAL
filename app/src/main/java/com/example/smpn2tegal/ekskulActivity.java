@@ -45,6 +45,8 @@ public class ekskulActivity extends AppCompatActivity {
     }
 
     public void futsal(View view) {
+        Intent intent = new Intent(ekskulActivity.this, futsal.class);
+        startActivity(intent);
     }
 
     public void basket(View view) {
