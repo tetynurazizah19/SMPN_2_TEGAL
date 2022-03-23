@@ -120,7 +120,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5dp"
-                    android:text="”laboratorium IPA (fisika, kimia, biologi) berfungsi sebagai tempat berlangsungnya kegiatan pembelajaran IPA secara praktek yang memerlukan peralatan khusus yang tidak mudah dihadirkan di ruang kelas”."
+                    android:text="laboratorium IPA (fisika, kimia, biologi) berfungsi sebagai tempat berlangsungnya kegiatan pembelajaran IPA secara praktek yang memerlukan peralatan khusus yang tidak mudah dihadirkan di ruang kelas."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="10sp" />
@@ -176,7 +176,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5dp"
-                    android:text="Laboratorium komputer adalah tempat riset ilmiah, eksperimen, pengukuran ataupun pelatihan ilmiah yang berhubungan dengan ilmu komputer dan memiliki beberapa komputer dalam satu jaringan untuk penggunaan oleh kalangan tertentu."
+                    android:text=" Laboratorium komputer adalah tempat riset ilmiah, eksperimen, pengukuran ataupun pelatihan ilmiah yang berhubungan dengan ilmu komputer dan memiliki beberapa komputer dalam satu jaringan untuk penggunaan oleh kalangan tertentu."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="10sp" />
@@ -367,6 +367,62 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:src="@drawable/karya" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="KARYA SISWA"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Hasil karya siswa adalah hasil kegiatan, pekerjaan, perbuatan suatu benda atau objek yang dibuat oleh siswa."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+            </androidx.cardview.widget.CardView>
+            <!--            Penutup fasilitas 7-->
+
+            <!--Fasilitas 8-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
                     android:src="@drawable/masjid" />
             </androidx.cardview.widget.CardView>
 
@@ -406,8 +462,7 @@
                     android:textSize="10sp" />
 
             </androidx.cardview.widget.CardView>
-            <!--            Penutup fasilitas 7-->
-
+            <!--            Penutup fasilitas 8-->
         </GridLayout>
     </ScrollView>
 </RelativeLayout>

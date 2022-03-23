@@ -28,7 +28,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/headergaleri1"/>
+                        android:src="@drawable/halaman"/>
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp"
-                    android:onClick="albumhutri">
+                    android:onClick="adiwiyata">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -81,7 +81,7 @@
                             android:layout_margin="10dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/logohut">
+                            android:src="@drawable/adiwiyata">
 
                         </ImageView>
 
@@ -90,7 +90,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="ALBUM KEGIATAN HUT RI">
+                            android:text="SEKOLAH ADIWIYATA">
 
                         </TextView>
                     </LinearLayout>
@@ -109,7 +109,7 @@
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp"
-                    android:onClick="albumpramuka">
+                    android:onClick="literasi">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -124,7 +124,7 @@
                             android:layout_margin="10dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/logomedic">
+                            android:src="@drawable/literasi">
 
                         </ImageView>
 
@@ -133,7 +133,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="AlBUM KEGIATAN PMR">
+                            android:text="SEKOLAH LITERASI">
 
                         </TextView>
                     </LinearLayout>
@@ -152,7 +152,7 @@
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp"
-                    android:onClick="albumpmr">
+                    android:onClick="prestasisekolah">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -167,7 +167,7 @@
                             android:layout_margin="10dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/logokemah1">
+                            android:src="@drawable/prestasi">
 
                         </ImageView>
 
@@ -176,12 +176,96 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="ALBUM KEGIATAN PRAMUKA">
+                            android:text="PRESTASI SEKOLAH">
 
                         </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <!--                        Penutup Menu3-->
+                <!--                            Pembuka Menu 4-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:onClick="sosial">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/baktisosial">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="50dp"
+                            android:text="KEGIATAN SOSIAL">
+
+                        </TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <!--                        Penutup Menu4-->
+                <!--                            Pembuka Menu 5-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:onClick="keagamaan">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/keagamaan">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="50dp"
+                            android:text="KEAGAMAAN">
+
+                        </TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <!--                        Penutup Menu5-->
             </GridLayout>
         </LinearLayout>
     </ScrollView>

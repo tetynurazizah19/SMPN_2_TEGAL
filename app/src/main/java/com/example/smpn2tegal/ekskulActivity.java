@@ -14,10 +14,7 @@ import com.smarteist.autoimageslider.SliderView;
 public class ekskulActivity extends AppCompatActivity {
     SliderView sliderView;
     int[] images = {R.drawable.ekskul1,
-            R.drawable.ekskul2,
-            R.drawable.headerprotokol,
-            R.drawable.headerprotokol,
-            R.drawable.headerprotokol};
+            R.drawable.ekskul2,};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,5 +39,14 @@ public class ekskulActivity extends AppCompatActivity {
     public void pmr(View view) {
         Intent intent = new Intent(ekskulActivity.this, pmrActivity.class);
         startActivity(intent);
+    }
+
+    public void karate(View view) {
+    }
+
+    public void futsal(View view) {
+    }
+
+    public void basket(View view) {
     }
 }

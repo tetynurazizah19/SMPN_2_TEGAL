@@ -109,37 +109,6 @@
                             android:textColor="#000"
                             android:text="Gerakan Pramuka atau Kepanduan di Indonesia telah dimulai sejak tahun 1923 yang ditandai dengan didirikannya (Belanda)Nationale Padvinderij Organisatie (NPO) di Bandung. Sedangkan pada tahun yang sama, di Jakarta didirikan (Belanda)Jong Indonesische Padvinderij Organisatie (JIPO)..">
                         </TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text="Jadwal Pertemuan :"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text="Hari Senin dan Rabu"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text="Pukul 13.45 - 14.05"/>
-
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </GridLayout>

@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/tampilan"
+                android:src="@drawable/tampilan2"
                 android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -86,7 +86,7 @@
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="15dp"
                         android:text="PROFIL SMPN 2 TEGAL"
-                        android:textColor="#0000FF"
+                        android:textColor="#0A0A0B"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -285,7 +285,7 @@
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="20dp"
                         android:text="SAMBUTAN KEPALA SEKOLAH"
-                        android:textColor="#000"
+                        android:textColor="#030304"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -340,7 +340,7 @@ Demikian dan terima kasih."
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="20dp"
                         android:text="Sejarah SMP N 2 Tegal "
-                        android:textColor="#000"
+                        android:textColor="#131313"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -690,7 +690,7 @@ Demikian dan terima kasih."
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
                             android:textStyle="bold"
-                            android:text="8.Terlaksananya semua layanan pendidikan yang dapat diakses melalui inteernet."/>
+                            android:text="8.Terlaksananya semua layanan pendidikan yang dapat diakses melalui internet."/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

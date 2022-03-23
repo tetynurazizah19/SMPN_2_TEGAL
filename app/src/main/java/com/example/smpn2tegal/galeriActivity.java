@@ -14,18 +14,28 @@ public class galeriActivity extends AppCompatActivity {
         setContentView(R.layout.activity_galeri);
     }
 
-    public void albumhutri(View view) {
-        Intent intent = new Intent(galeriActivity.this, albumhutriActivity.class);
+    public void adiwiyata(View view) {
+        Intent intent = new Intent(galeriActivity.this, adiwiyata.class);
         startActivity(intent);
     }
 
-    public void albumpramuka(View view) {
-        Intent intent = new Intent(galeriActivity.this, albumpmrActivity.class);
+    public void literasi(View view) {
+        Intent intent = new Intent(galeriActivity.this, literasi.class);
         startActivity(intent);
     }
 
-    public void albumpmr(View view) {
-        Intent intent = new Intent(galeriActivity.this, albumpramukaActivity.class);
+    public void prestasisekolah(View view) {
+        Intent intent = new Intent(galeriActivity.this, prestasi.class);
+        startActivity(intent);
+    }
+
+    public void sosial(View view) {
+        Intent intent = new Intent(galeriActivity.this, kegiatansosial.class);
+        startActivity(intent);
+    }
+
+    public void keagamaan(View view) {
+        Intent intent = new Intent(galeriActivity.this, keagamaan.class);
         startActivity(intent);
     }
 }

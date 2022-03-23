@@ -10,19 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN2TEGAL">
         <activity
+            android:name=".futsal"
+            android:exported="false" />
+        <activity
+            android:name=".keagamaan"
+            android:exported="false" />
+        <activity
+            android:name=".kegiatansosial"
+            android:exported="false" />
+        <activity
+            android:name=".prestasi"
+            android:exported="false" />
+        <activity
+            android:name=".literasi"
+            android:exported="false" />
+        <activity
+            android:name=".adiwiyata"
+            android:exported="false" />
+        <activity
             android:name=".PerpusActivity"
             android:exported="false" />
         <activity
             android:name=".lapkomActivity"
-            android:exported="false" />
-        <activity
-            android:name=".albumpmrActivity"
-            android:exported="false" />
-        <activity
-            android:name=".albumpramukaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".albumhutriActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
