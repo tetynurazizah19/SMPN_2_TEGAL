@@ -23,7 +23,7 @@
             android:layout_gravity="center"
             android:textStyle="bold"
             android:layout_marginTop="10dp"
-            android:text="SMP N 2 KOTA TEGAL"/>
+            android:text="SMP NEGERI 2 KOTA TEGAL"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="300dp"
             android:fontFamily="monospace"
-            android:text="@copyright"
+            android:text="\u00A9Copyright"
             android:textColor="#000"
             android:textStyle="bold" />
 
@@ -42,14 +42,13 @@
             android:layout_gravity="center"
             android:textStyle="bold"
             android:text="Tety Nur Azizah"/>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:layout_gravity="center"
             android:textStyle="bold"
-            android:text="Smp Negeri 2 Tegal"/>
+            android:text="RPL SMK YPT TEGAL"/>
     </LinearLayout>
 
 </RelativeLayout>

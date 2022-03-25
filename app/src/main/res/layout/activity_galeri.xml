@@ -124,7 +124,7 @@
                             android:layout_margin="10dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/literasi">
+                            android:src="@drawable/logoliterasi">
 
                         </ImageView>
 
@@ -251,16 +251,16 @@
                             android:layout_margin="10dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/keagamaan">
+                            android:src="@drawable/logokarnaval">
 
                         </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="12dp"
                             android:layout_gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="KEAGAMAAN">
+                            android:text="KARNAVAL">
 
                         </TextView>
                     </LinearLayout>

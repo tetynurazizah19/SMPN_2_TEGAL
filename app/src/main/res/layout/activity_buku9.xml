@@ -86,14 +86,14 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="mat7"
+                                    android:onClick="matkls9"
                                     android:orientation="vertical">
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/mat1kls7"
+                                        android:src="@drawable/matkls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -105,12 +105,115 @@
                                         android:textSize="15dp"
                                         android:textStyle="bold" />
 
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="20dp"
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:onClick="bhsind9"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/bhsindokls9"
+                                        android:layout_margin="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="BAHASA"
+                                        android:layout_gravity="center"
+                                        android:textSize="15dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="INDONESIA"
+                                        android:layout_gravity="center"
+                                        android:textSize="15dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"/>
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="20dp"
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:onClick="ipa1kls9"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ipakls9"
+                                        android:layout_margin="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="IPA"
+                                        android:layout_gravity="center"
+                                        android:textSize="15dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"/>
+
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:text="SEMESTER 1"
-                                        android:textSize="10dp" />
+                                        android:textSize="10dp"/>
 
                                 </LinearLayout>
 
@@ -131,7 +234,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat7"
+                                    android:onClick="ipa2kls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -143,13 +246,13 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/mat2kls7"
+                                        android:src="@drawable/ipakls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="MATEMATIKA"
+                                        android:text="IPA"
                                         android:layout_gravity="center"
                                         android:textSize="15dp"
                                         android:textStyle="bold"
@@ -189,7 +292,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipa1kls7"
+                                    android:onClick="pra1kls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -201,115 +304,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/ipa1kls7"
-                                        android:layout_margin="10dp"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="IPA"
-                                        android:layout_gravity="center"
-                                        android:textSize="15dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 1"
-                                        android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            android:layout_weight="1">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:onClick="mat7"
-                                    android:autoLink="web"
-                                    android:clickable="true"
-                                    android:cursorVisible="true"
-                                    android:linksClickable="true"
-                                    android:gravity="center"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/ipa2kls7"
-                                        android:layout_margin="10dp"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="IPA"
-                                        android:layout_gravity="center"
-                                        android:textSize="15dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 2"
-                                        android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:weightSum="2">
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            android:layout_weight="1">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:onClick="mat7"
-                                    android:autoLink="web"
-                                    android:clickable="true"
-                                    android:cursorVisible="true"
-                                    android:linksClickable="true"
-                                    android:gravity="center"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/prakarya1kls7"
+                                        android:src="@drawable/prakarya1kls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -347,7 +342,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat7"
+                                    android:onClick="pra2kls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -359,7 +354,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/prakarya2kls7"
+                                        android:src="@drawable/prakarya2kls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -410,7 +405,7 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="mat7"
+                                    android:onClick="paikls9"
                                     android:orientation="vertical">
 
                                     <ImageView
@@ -418,23 +413,14 @@
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/bhsindkls7" />
+                                        android:src="@drawable/paikls9" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
-                                        android:text="BAHASA"
+                                        android:text="PAI"
                                         android:textColor="@color/black"
-                                        android:textSize="15dp"
-                                        android:textStyle="bold" />
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="INDONESIA"
-                                        android:textColor="#000"
                                         android:textSize="15dp"
                                         android:textStyle="bold" />
 
@@ -462,7 +448,7 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="mat7"
+                                    android:onClick="bhsingkls9"
                                     android:orientation="vertical">
 
                                     <ImageView
@@ -470,7 +456,7 @@
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/bhsingkls7" />
+                                        android:src="@drawable/bhsingkls9" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -517,7 +503,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ppkn7"
+                                    android:onClick="ppkn9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -529,7 +515,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/pknkls7"
+                                        android:src="@drawable/pknkls9"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
@@ -560,7 +546,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat7"
+                                    android:onClick="ipskls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -572,13 +558,13 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/paikls7"
+                                        android:src="@drawable/ipskls9"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="PAI"
+                                        android:text="IPS"
                                         android:layout_gravity="center"
                                         android:textSize="15dp"
                                         android:textStyle="bold"
@@ -611,7 +597,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="penjas7"
+                                    android:onClick="penjas9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -623,7 +609,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/penjaskl7"
+                                        android:src="@drawable/penjaskls9"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
@@ -654,7 +640,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat7"
+                                    android:onClick="senikls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -666,7 +652,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/senikls7"
+                                        android:src="@drawable/snbdykls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView

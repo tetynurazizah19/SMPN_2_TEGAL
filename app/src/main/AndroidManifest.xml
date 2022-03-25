@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN2TEGAL">
         <activity
-            android:name=".futsal"
+            android:name=".sosialActivity"
             android:exported="false" />
         <activity
-            android:name=".keagamaan"
+            android:name=".karnavalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".futsal"
             android:exported="false" />
         <activity
             android:name=".kegiatansosial"
