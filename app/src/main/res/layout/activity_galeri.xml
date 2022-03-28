@@ -236,7 +236,7 @@
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp"
-                    android:onClick="keagamaan">
+                    android:onClick="karnaval">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -257,7 +257,7 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="12dp"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="KARNAVAL">

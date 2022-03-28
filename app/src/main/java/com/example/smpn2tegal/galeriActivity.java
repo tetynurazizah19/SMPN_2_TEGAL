@@ -30,12 +30,12 @@ public class galeriActivity extends AppCompatActivity {
     }
 
     public void sosial(View view) {
-        Intent intent = new Intent(galeriActivity.this, kegiatansosial.class);
+        Intent intent = new Intent(galeriActivity.this, sosialActivity.class);
         startActivity(intent);
     }
 
-    public void keagamaan(View view) {
-        Intent intent = new Intent(galeriActivity.this, keagamaan.class);
+    public void karnaval(View view) {
+        Intent intent = new Intent(galeriActivity.this, karnavalActivity.class);
         startActivity(intent);
     }
 }

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN2TEGAL">
         <activity
+            android:name=".SeniTariActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SilatActivity"
+            android:exported="false" />
+        <activity
             android:name=".sosialActivity"
             android:exported="false" />
         <activity

@@ -28,13 +28,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/gambar1" />
+                        android:src="@drawable/gmbr2" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tampilan" />
+                        android:src="@drawable/gmbr1" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="210dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/gmbr3" />
 
 
                 </ViewFlipper>
