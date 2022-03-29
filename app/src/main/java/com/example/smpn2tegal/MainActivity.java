@@ -9,6 +9,15 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ViewFlipper;
 
+//youtube
+
+//import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.PlayerConstants
+//import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
+//import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayerBridge
+//import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.YouTubePlayerListener
+
+//youtube
+
 public class MainActivity extends AppCompatActivity {
     ViewFlipper viewFlipper;
     Animation fadein,fadeout;
@@ -16,6 +25,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        youtube
+//        YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
+//        getLifecycle().addObserver(youTubePlayerView);
+//
+//        youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
+//            @Override
+//            public void onReady(@NonNull YouTubePlayer youTubePlayer) {
+//                String videoId = "S0Q4gqBUs7c";
+//                youTubePlayer.loadVideo(videoId, 0);
+//            }
+//        });
+//        youtube
 
         viewFlipper =(ViewFlipper) findViewById(R.id.viewFlipper);
         fadein = AnimationUtils.loadAnimation(this,R.anim.fade_in);
@@ -29,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         viewFlipper.startFlipping();
 
     }
+
 
     public void Ekskul(View view) {
         Intent intent = new Intent(MainActivity.this, ekskulActivity.class);

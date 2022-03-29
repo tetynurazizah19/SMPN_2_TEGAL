@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SeniTariActivity">
-
+    tools:context=".futsalActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="188dp"
@@ -85,7 +84,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="Seni Tari"/>
+                        android:text="SENI TARI"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -107,7 +106,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="Seni tari adalah suatu gerakan yang berirama, dilakukan di suatu tempat dan waktu tertentu untuk mengekpresikan suatu perasaan dan menyampaikan pesan dari seseorang maupun kelompok. Seni menjadi wujud ekspresi diri dari manusia, yang sering dijadikan sarana hiburan dan pertunjukan. ">
+                            android:text="Seni tari adalah suatu gerakan yang berirama, dilakukan di suatu tempat dan waktu tertentu untuk mengekpresikan suatu perasaan dan menyampaikan pesan dari seseorang maupun kelompok. Seni menjadi wujud ekspresi diri dari manusia, yang sering dijadikan sarana hiburan dan pertunjukan.">
                         </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

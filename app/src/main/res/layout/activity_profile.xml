@@ -284,61 +284,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="20dp"
-                        android:text="SAMBUTAN KEPALA SEKOLAH"
-                        android:textColor="#030304"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="75dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
-                            android:layout_marginBottom="5dp"
-                            android:text="Puji syukur kami panjatkan kehadirat ALLAH SWT atas limpahan rahmat dan karunia-Nya sehingga SMP NEGERI 2 TEGAL berhasil membangun website, Kehadiran Website SMP NEGERI 2 TEGAL diharapkan dapat memudahkan penyampaian informasi secara terbuka kepada warga sekolah, alumni dan masyarakat serta instansi lain yang terkait.
-Semoga dengan kehadiran Website ini akan terjalin informasi, komunikasi antar alumni khususnya sebagai salah satu upaya sekolah mendapatkan informasi akan penelusuran tamatan/ alumni dimana saja berada. Dapat memperoleh informasi dengan cepat sehingga dapat mengikuti perkembangan dalam pengetahuan yang berkembang dengan cepat pula.
-Kesiapan dari semua warga sekolah sangat besar artinya bagi keberadaan website tersebut, sebab tanpa kesiapan dari warga sekolah maka keberadaan website tersebut akan tidak ada gunanya.
-Sehubungan dengan hal tersebut maka semua warga sekolah harus mau untuk belajar menggunakan komputer dan internet, agar dapat meng-akses segala informasi yang berhubungan dengan sekolah dan pengetahuan di internet.
-Selamat bekerja,
-Demikian dan terima kasih."
-                            android:textColor="#000"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginRight="12dp"
-                    android:layout_marginBottom="12dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
-
-                    <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginTop="12dp"
-                        android:layout_marginRight="12dp"
-                        android:src="@drawable/logosmp2" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
-                        android:layout_marginTop="20dp"
                         android:text="Sejarah SMP N 2 Tegal "
                         android:textColor="#131313"
                         android:textSize="18sp"
@@ -379,7 +324,6 @@ Demikian dan terima kasih."
                             android:text="Dalam kiprahnya di dunia pendidikan, mulai dari sejak berdirinya sampai dengan saat ini SMPN 2 Tegal telah berhasil mengukir banyak prestasi terutama pada lingkup kecamatan dan kabupaten, baik prestasi akademik maupun non akademik."
                             android:textColor="#000"
                             android:textStyle="bold" />
-
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -430,7 +374,6 @@ Demikian dan terima kasih."
                             android:textColor="#000"
                             android:textStyle="bold" />
 
-
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -480,10 +423,8 @@ Demikian dan terima kasih."
                             android:textColor="#000"
                             android:textStyle="bold" />
 
-
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"

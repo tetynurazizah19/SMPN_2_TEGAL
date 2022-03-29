@@ -47,6 +47,7 @@
                     <ImageView
                         android:layout_width="400dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:src="@drawable/prestasi2" />
 
                 </LinearLayout>

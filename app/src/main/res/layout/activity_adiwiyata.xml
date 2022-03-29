@@ -47,7 +47,7 @@
                     <ImageView
                         android:layout_width="400dp"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/adwyt2" />
+                        android:src="@drawable/adwyt3" />
 
                 </LinearLayout>
 
@@ -78,7 +78,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="5dp"
-                    android:text="Program Adiwiyata"
+                    android:text="PROGRAM ADIWIYATA"
                     android:textColor="#000"
                     android:textSize="10dp"
                     android:textStyle="bold" />
@@ -90,7 +90,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5dp"
-                    android:text="Tujuan Program Adiwiyata adalah menciptakan kondisi yang baik bagi sekolah untuk menjadi tempat pembelajaran dan penyadaran warga sekolah, sehingga dikemudian hari warga sekolah tersebut dapat turut bertanggungjawab dalam upaya-upaya penyelamatan lingkungan hidup dan pembangunan berkelanjutan."
+                    android:text="Adiwiyata adalah upaya membangun program atau wadah yang baik dan ideal untuk mendapatkan ilmu pengetahuan dan berbagai norma serta etika yang dapat menjadi dasar manusia menuju terciptanya kesejahteraan hidup untuk cita-cita pembangunan berkelanjutan. Adiwiyata merupakan nama program pendidikan lingkungan hidup."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="10dp" />

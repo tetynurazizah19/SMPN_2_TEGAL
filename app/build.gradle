@@ -28,7 +28,9 @@ android {
 }
 
 dependencies {
-
+//    youtube
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1'
+//    youtube
     implementation "androidx.cardview:cardview:1.0.0"
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
