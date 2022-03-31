@@ -41,7 +41,9 @@ public class ekskulActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void karate(View view) {
+    public void silat(View view) {
+        Intent intent = new Intent(ekskulActivity.this, SilatActivity.class);
+        startActivity(intent);
     }
 
     public void futsal(View view) {
@@ -49,6 +51,8 @@ public class ekskulActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void basket(View view) {
+    public void senitari(View view) {
+        Intent intent = new Intent(ekskulActivity.this, SeniTariActivity.class);
+        startActivity(intent);
     }
 }

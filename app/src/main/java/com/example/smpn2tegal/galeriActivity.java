@@ -38,4 +38,9 @@ public class galeriActivity extends AppCompatActivity {
         Intent intent = new Intent(galeriActivity.this, karnavalActivity.class);
         startActivity(intent);
     }
+
+    public void video(View view) {
+        Intent intent = new Intent(galeriActivity.this, PercobaanActivity.class);
+        startActivity(intent);
+    }
 }
