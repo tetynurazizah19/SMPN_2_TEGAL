@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg4"
+    android:background="@drawable/biru"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -249,7 +249,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical"
-                            android:background="@drawable/bg4">
+                            android:background="@drawable/biru">
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
@@ -283,7 +283,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="@drawable/bg4"
+                            android:background="@drawable/biru"
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
