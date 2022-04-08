@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN2TEGAL">
         <activity
-            android:name=".PercobaanActivity"
-            android:exported="false" />
-        <activity
             android:name=".SeniTariActivity"
             android:exported="false" />
         <activity

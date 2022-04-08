@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg1"
+    android:background=""
     tools:context=".MainActivity">
 
     <ScrollView
@@ -57,35 +57,29 @@
                     android:layout_width="0dp"
                     android:layout_height="170dp"
                     android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:onClick="profil"
+                            android:src="@drawable/profil" />
 
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:backgroundTint="#1ED3C2"
-                            android:background="@drawable/bg1">
-
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:layout_margin="10dp"
-                                android:onClick="profil"
-                                android:src="@drawable/profil" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:text="PROFIL"
-                                android:textColor="#000"
-                                android:textSize="20dp"
-                                android:textStyle="bold"/>
-                        </LinearLayout>
-
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="PROFIL"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
 
 
                 </LinearLayout>
@@ -103,9 +97,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:orientation="vertical"
-                            android:backgroundTint="#D37456"
-                            android:background="@drawable/bg1">
+                            android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
@@ -148,9 +140,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:orientation="vertical"
-                            android:backgroundTint="#03A9F4"
-                            android:background="@drawable/bg1">
+                            android:orientation="vertical">
 
                             <ImageView
                                 android:layout_width="75dp"
@@ -182,17 +172,22 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:orientation="vertical"
-                            android:backgroundTint="#FCFFFF"
-                            android:background="@drawable/bg1">
+                            android:orientation="vertical">
 
                             <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-
                                 android:src="@drawable/logosmp2" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="SMPN2TEGAL"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
 
                         </LinearLayout>
 
@@ -210,9 +205,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:orientation="vertical"
-                            android:backgroundTint="#CBD65C"
-                            android:background="@drawable/bg1">
+                            android:orientation="vertical">
 
                             <ImageView
                                 android:layout_width="80dp"
@@ -258,9 +251,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:orientation="vertical"
-                            android:backgroundTint="@color/purple_200"
-                            android:background="@drawable/bg1">
+                            android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
@@ -294,8 +285,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="@drawable/bg1"
-                            android:backgroundTint="@color/teal_700"
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
