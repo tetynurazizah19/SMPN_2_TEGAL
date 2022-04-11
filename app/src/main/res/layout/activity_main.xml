@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background=""
     tools:context=".MainActivity">
 
     <ScrollView
@@ -57,6 +56,14 @@
                     android:layout_width="0dp"
                     android:layout_height="170dp"
                     android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        android:padding="1dp"
+                        app:cardCornerRadius="15dp">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -81,8 +88,10 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
+                    </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
+
                 <!--                    penutup menu 1-->
 
                 <!--                pembuka menu 2-->
@@ -91,7 +100,12 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
-
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        android:padding="1dp"
+                        app:cardCornerRadius="15dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -116,6 +130,7 @@
                         </LinearLayout>
 
 
+                    </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
 
@@ -135,6 +150,12 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        android:padding="1dp"
+                        app:cardCornerRadius="15dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -158,7 +179,7 @@
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
-
+                    </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
                 <!--                    penutup menu 3-->
@@ -167,6 +188,7 @@
                     android:layout_width="0dp"
                     android:layout_height="170dp"
                     android:layout_weight="1">
+
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -191,7 +213,6 @@
 
                         </LinearLayout>
 
-
                 </LinearLayout>
 
                 <!--                pembuka menu 4-->
@@ -200,6 +221,12 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        android:padding="1dp"
+                        app:cardCornerRadius="15dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -225,6 +252,7 @@
                                 android:textStyle="bold"/>
                         </LinearLayout>
 
+                    </androidx.cardview.widget.CardView>
 
 
                 </LinearLayout>
@@ -245,9 +273,14 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        android:padding="1dp"
+                        app:cardCornerRadius="15dp">
 
-
-                        <LinearLayout
+                <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
@@ -270,6 +303,7 @@
                                 android:textStyle="bold"/>
                         </LinearLayout>
 
+                    </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
                 <!--                    penutup menu 5-->
@@ -279,6 +313,13 @@
                     android:layout_width="0dp"
                     android:layout_height="170dp"
                     android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        android:padding="1dp"
+                        app:cardCornerRadius="15dp">
 
 
                         <LinearLayout
@@ -303,6 +344,7 @@
                                 android:textStyle="bold"/>
                         </LinearLayout>
 
+                    </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
 
