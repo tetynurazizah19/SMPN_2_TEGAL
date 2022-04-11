@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/ic_launcher_background"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -68,6 +69,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="#74F1F1"
                         android:orientation="vertical">
 
                         <ImageView
@@ -111,6 +113,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
+                            android:background="#55E18D"
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
@@ -161,6 +164,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
+                            android:background="#82B4DD"
                             android:orientation="vertical">
 
                             <ImageView
@@ -232,6 +236,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
+                            android:background="#F4B48A"
                             android:orientation="vertical">
 
                             <ImageView
@@ -284,6 +289,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
+                            android:background="#FB88F6"
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
@@ -326,6 +332,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
+                            android:background="#F8EA6A"
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
