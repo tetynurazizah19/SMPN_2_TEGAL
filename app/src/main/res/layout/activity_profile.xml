@@ -87,7 +87,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="15dp"
-                        android:text="PROFIL SMPN 2 TEGAL"
+                        android:text="PROFILE SMPN 2 TEGAL"
                         android:textColor="#0A0A0B"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -111,7 +111,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="Nama Sekolah : SMPN 2 TEGAL"
+                            android:text="Nama Sekolah : SMP NEGERI 2 TEGAL"
                             android:textColor="#000"
                             android:textSize="13sp"
                             android:textStyle="bold" />
