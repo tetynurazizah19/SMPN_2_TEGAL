@@ -41,18 +41,18 @@ public class ekskulActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void silat(View view) {
-        Intent intent = new Intent(ekskulActivity.this, SilatActivity.class);
+    public void senitari(View view) {
+        Intent intent = new Intent(ekskulActivity.this, SeniTariActivity.class);
+        startActivity(intent);
+    }
+
+    public void karate(View view) {
+        Intent intent = new Intent(ekskulActivity.this,karateActivity.class);
         startActivity(intent);
     }
 
     public void futsal(View view) {
-        Intent intent = new Intent(ekskulActivity.this, futsal.class);
-        startActivity(intent);
-    }
-
-    public void senitari(View view) {
-        Intent intent = new Intent(ekskulActivity.this, SeniTariActivity.class);
+        Intent intent = new Intent(ekskulActivity.this,futsalActivity.class);
         startActivity(intent);
     }
 }

@@ -15,17 +15,17 @@ public class galeriActivity extends AppCompatActivity {
     }
 
     public void adiwiyata(View view) {
-        Intent intent = new Intent(galeriActivity.this, adiwiyata.class);
+        Intent intent = new Intent(galeriActivity.this, AdiwiyataActivity.class);
         startActivity(intent);
     }
 
     public void literasi(View view) {
-        Intent intent = new Intent(galeriActivity.this, literasi.class);
+        Intent intent = new Intent(galeriActivity.this, literasiActivity.class);
         startActivity(intent);
     }
 
     public void prestasisekolah(View view) {
-        Intent intent = new Intent(galeriActivity.this, prestasi.class);
+        Intent intent = new Intent(galeriActivity.this, prestasiActivity.class);
         startActivity(intent);
     }
 

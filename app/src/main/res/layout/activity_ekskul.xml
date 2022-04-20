@@ -194,7 +194,7 @@
                                     android:layout_height="120dp"
                                     app:cardCornerRadius="15dp"
                                     android:layout_marginTop="20dp"
-                                    android:onClick="silat">
+                                    android:onClick="karate">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
@@ -207,7 +207,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="10dp"
                                             android:layout_marginTop="10dp"
-                                            android:text="Silat"
+                                            android:text="Karate"
                                             android:textColor="#fff"
                                             android:textSize="30sp"
                                             android:textStyle="bold" />

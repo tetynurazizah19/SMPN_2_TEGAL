@@ -35,13 +35,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/gmbrd" />
+                        android:src="@drawable/tampilan2" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
                         android:src="@drawable/gmbr3" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="210dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/kepsek" />
 
 
                 </ViewFlipper>
@@ -69,7 +74,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:background="#74F1F1"
+                        android:background="#57DFDF"
                         android:orientation="vertical">
 
                         <ImageView
@@ -113,7 +118,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="#55E18D"
+                            android:background="#38E67E"
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
@@ -164,7 +169,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="#82B4DD"
+                            android:background="#50A5EC"
                             android:orientation="vertical">
 
                             <ImageView
@@ -236,7 +241,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="#F4B48A"
+                            android:background="#EDB088"
                             android:orientation="vertical">
 
                             <ImageView
@@ -332,7 +337,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="#F8EA6A"
+                            android:background="#FAE953"
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"

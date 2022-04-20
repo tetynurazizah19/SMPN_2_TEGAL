@@ -41,7 +41,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/neni"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -98,7 +98,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/kusim"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -120,7 +120,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="BAHASA INGGRIS"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -155,7 +155,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/miftakhudin"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -177,7 +177,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="IPA/BIOLOGI"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -212,7 +212,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/subagyo"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -234,7 +234,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="PENJAS"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -269,7 +269,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/yuni"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -291,7 +291,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="BAHASA INDONESIA"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -326,7 +326,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/sukowati"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -348,7 +348,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="IPS"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -440,7 +440,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/kaselin"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -462,7 +462,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="MATEMATIKA"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -497,7 +497,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/endang"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -511,7 +511,7 @@
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Endang Suswatiningsih, S.Th"
-                    android:textColor="#000"
+                        android:textColor="#000"
                         android:textSize="15sp"
                         android:textStyle="bold"/>
                     <TextView
@@ -519,7 +519,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="P.Agama kristen"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -554,7 +554,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/muamiroh"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -576,7 +576,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="BK"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -611,7 +611,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/nursekha"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -633,7 +633,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="BAHASA INDONESIA"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -725,7 +725,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/subiyanti"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -742,15 +742,17 @@
                         android:textColor="#000"
                         android:textSize="15sp"
                         android:textStyle="bold"/>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
-                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="IPS"
+                        android:textColor="#4CAF50"
                         android:textSize="10sp"
-                        android:textColor="#4CAF50"/>
+                        android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -782,7 +784,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/eka"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -896,7 +898,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/maksumah"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -918,7 +920,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="BAHASA INGGRIS"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -953,7 +955,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/ropii"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -975,7 +977,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru"
+                        android:text="PENJAS ORKES"
                         android:textStyle="bold"
                         android:textSize="10sp"
                         android:textColor="#4CAF50"/>
@@ -1010,7 +1012,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/herni"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1864,7 +1866,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/gurusmp2"/>
+                    android:src="@drawable/sriinayati"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2415,5 +2417,8 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </GridLayout>
+
+
     </ScrollView>
 </RelativeLayout>
+

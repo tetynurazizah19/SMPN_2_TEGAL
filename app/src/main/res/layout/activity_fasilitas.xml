@@ -58,18 +58,6 @@
                     android:textSize="10sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Perpustakaan adalah sebuah ruangan, bagian sebuah Gedung ataupun gedung itu sendiri yang digunakan untuk menyimpan buku dan terbitan lainnya yang biasanya disimpan menurut tata susunan tertentu untuk digunakan pembaca, bukan untuk dijual"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
-
             </androidx.cardview.widget.CardView>
             <!--            Penutup fasilitas 1-->
 
@@ -114,17 +102,6 @@
                     android:textSize="10sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="laboratorium IPA (fisika, kimia, biologi) berfungsi sebagai tempat berlangsungnya kegiatan pembelajaran IPA secara praktek yang memerlukan peralatan khusus yang tidak mudah dihadirkan di ruang kelas."
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
 
             </androidx.cardview.widget.CardView>
             <!--            Penutup fasilitas 2-->
@@ -170,17 +147,6 @@
                     android:textSize="10sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text=" Laboratorium komputer adalah tempat riset ilmiah, eksperimen, pengukuran ataupun pelatihan ilmiah yang berhubungan dengan ilmu komputer dan memiliki beberapa komputer dalam satu jaringan untuk penggunaan oleh kalangan tertentu."
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
 
             </androidx.cardview.widget.CardView>
             <!--            Penutup fasilitas 3-->
@@ -226,17 +192,6 @@
                     android:textSize="10sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Taman Sekolah, adalah taman artifisial yang ditanam aneka tanaman hias dan pelindung untuk meng-indahkan dan menghijaukan lahan di pekarangan sekolah."
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
 
             </androidx.cardview.widget.CardView>
             <!--            Penutup fasilitas 4-->
@@ -282,18 +237,6 @@
                     android:textSize="10sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Lapangan Sekolah merupakan tempat untuk melakukan semua kegiatan baik upacara, olahraga, maupun kegiatan-kegiatan sekolah yang lain. Arti lapangan sekolah bagi sekolahnya adalah tempat yang banyak di gunakan untuk segala kegiatan-kegiatan formal maupun non formal."
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
-
             </androidx.cardview.widget.CardView>
             <!--            Penutup fasilitas 5-->
 
@@ -337,18 +280,6 @@
                     android:textColor="@color/black"
                     android:textSize="10sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Majalah dinding (mading) adalah salah satu bentuk dari majalah sekolah. Bentuk lain dari majalah sekolah bisa berupa korlem (koran lembar) yang diterbitkan harian, atau juga majalah sekolah yang terbit bulanan seperti bulletin sekolah."
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
 
             </androidx.cardview.widget.CardView>
             <!--            Penutup fasilitas 6-->
@@ -394,18 +325,6 @@
                     android:textSize="10sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Hasil karya siswa adalah hasil kegiatan, pekerjaan, perbuatan suatu benda atau objek yang dibuat oleh siswa."
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
-
             </androidx.cardview.widget.CardView>
             <!--            Penutup fasilitas 7-->
 
@@ -450,22 +369,56 @@
                     android:textSize="10sp"
                     android:textStyle="bold" />
 
+            </androidx.cardview.widget.CardView>
+            <!--            Penutup fasilitas 8-->
+
+            <!--Fasilitas 9-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/kantin" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="5dp"
-                    android:text="memberikan bimbingan untuk memenuhi minat dan kebutuhan para mahasiswa dan untuk memperluas wawasan membaca."
-                    android:textAlignment="center"
+                    android:text="KANTIN"
                     android:textColor="@color/black"
-                    android:textSize="10sp" />
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+
 
             </androidx.cardview.widget.CardView>
-            <!--            Penutup fasilitas 8-->
+            <!--            Penutup fasilitas 9-->
 
-            <!--Fasilitas 9-->
+            <!--Fasilitas 10-->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
@@ -501,25 +454,14 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="5dp"
-                    android:text="MASJID"
+                    android:text="MUSHOLLA"
                     android:textColor="@color/black"
                     android:textSize="10sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Masjid adalah rumah tempat ibadah umat Islam atau Muslim. Masjid artinya tempat sujud, sebutan lain yang berkaitan dengan masjid di Indonesia adalah musala, langgar atau surau. Istilah tersebut diperuntukkan bagi bangunan menyerupai masjid yang tidak digunakan untuk salat Jumat, iktikaf, dan umumnya berukuran kecil.."
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
-
             </androidx.cardview.widget.CardView>
-            <!--            Penutup fasilitas 9-->
+            <!--            Penutup fasilitas 10-->
+
         </GridLayout>
     </ScrollView>
 </RelativeLayout>

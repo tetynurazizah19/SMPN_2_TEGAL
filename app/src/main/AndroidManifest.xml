@@ -10,31 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN2TEGAL">
         <activity
-            android:name=".SeniTariActivity"
+            android:name=".prestasiActivity"
             android:exported="false" />
         <activity
-            android:name=".SilatActivity"
+            android:name=".AdiwiyataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".literasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".futsalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".karateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeniTariActivity"
             android:exported="false" />
         <activity
             android:name=".sosialActivity"
             android:exported="false" />
         <activity
             android:name=".karnavalActivity"
-            android:exported="false" />
-        <activity
-            android:name=".futsal"
-            android:exported="false" />
-        <activity
-            android:name=".kegiatansosial"
-            android:exported="false" />
-        <activity
-            android:name=".prestasi"
-            android:exported="false" />
-        <activity
-            android:name=".literasi"
-            android:exported="false" />
-        <activity
-            android:name=".adiwiyata"
             android:exported="false" />
         <activity
             android:name=".PerpusActivity"
