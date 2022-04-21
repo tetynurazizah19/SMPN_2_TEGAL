@@ -46,7 +46,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/kepsek" />
+                        android:src="@drawable/neni2" />
 
 
                 </ViewFlipper>
@@ -372,24 +372,6 @@
                 <!--                menu 1-->
 
                 <!--                    penutup menu 1-->
-
-                <!--                youtube -->
-                <LinearLayout
-                    xmlns:android="http://schemas.android.com/apk/res/android"
-                    xmlns:app="http://schemas.android.com/apk/res-auto"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical" >
-
-                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:videoId="CukWggHonKs"
-                        app:autoPlay="true"
-                        />
-                </LinearLayout>
-
-                <!--                youtube -->
 
 
                 <!--                pembuka menu 2-->

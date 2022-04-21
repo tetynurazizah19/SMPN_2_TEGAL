@@ -55,4 +55,14 @@ public class ekskulActivity extends AppCompatActivity {
         Intent intent = new Intent(ekskulActivity.this,futsalActivity.class);
         startActivity(intent);
     }
+
+    public void pbb(View view) {
+        Intent intent = new Intent(ekskulActivity.this,pbbActivity.class);
+        startActivity(intent);
+    }
+
+    public void basket(View view) {
+        Intent intent = new Intent(ekskulActivity.this,basketActivity.class);
+        startActivity(intent);
+    }
 }

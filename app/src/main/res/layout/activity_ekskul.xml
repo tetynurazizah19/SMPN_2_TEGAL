@@ -113,7 +113,7 @@
                                     android:layout_height="120dp"
                                     app:cardCornerRadius="15dp"
                                     android:layout_marginTop="20dp"
-                                    android:onClick="pmr">
+                                    android:onClick="pbb">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
@@ -153,7 +153,7 @@
                                     android:layout_height="120dp"
                                     app:cardCornerRadius="15dp"
                                     android:layout_marginTop="20dp"
-                                    android:onClick="pmr">
+                                    android:onClick="basket">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
