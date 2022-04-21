@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN2TEGAL">
         <activity
+            android:name=".qurbanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".basketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pbbActivity"
+            android:exported="false" />
+        <activity
             android:name=".prestasiActivity"
             android:exported="false" />
         <activity

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SeniTariActivity">
+    tools:context=".basketActivity">
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="188dp"
@@ -21,7 +22,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/tari2"
+                android:src="@drawable/basket"
                 android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -84,7 +85,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="SENI TARI"/>
+                        android:text="BASKET"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -106,7 +107,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="Seni tari adalah suatu gerakan yang berirama, dilakukan di suatu tempat dan waktu tertentu untuk mengekpresikan suatu perasaan dan menyampaikan pesan dari seseorang maupun kelompok. Seni menjadi wujud ekspresi diri dari manusia, yang sering dijadikan sarana hiburan dan pertunjukan.">
+                            android:text="Bola basket adalah olahraga bola berkelompok yang terdiri atas dua tim beranggotakan masing-masing lima orang yang saling bertanding mencetak poin dengan memasukkan bola ke dalam keranjang lawan. Bola basket dapat di lapangan terbuka, walaupun pertandingan profesional pada umumnya dilakukan di ruang tertutup.">
                         </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
