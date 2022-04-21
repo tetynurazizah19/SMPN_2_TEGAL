@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.smpn2tegal"
+        applicationId "com.profil.smpn2tegal"
         minSdk 19
         targetSdk 32
         versionCode 1

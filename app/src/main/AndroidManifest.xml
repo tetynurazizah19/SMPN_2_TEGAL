@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smpn2tegal">
+    package="com.profil.smpn2tegal">
 
     <application
         android:allowBackup="true"
@@ -10,79 +10,79 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN2TEGAL">
         <activity
-            android:name=".qurbanActivity"
+            android:name="com.profil.smpn2tegal.qurbanActivity"
             android:exported="false" />
         <activity
-            android:name=".basketActivity"
+            android:name="com.profil.smpn2tegal.basketActivity"
             android:exported="false" />
         <activity
-            android:name=".pbbActivity"
+            android:name="com.profil.smpn2tegal.pbbActivity"
             android:exported="false" />
         <activity
-            android:name=".prestasiActivity"
+            android:name="com.profil.smpn2tegal.prestasiActivity"
             android:exported="false" />
         <activity
-            android:name=".AdiwiyataActivity"
+            android:name="com.profil.smpn2tegal.AdiwiyataActivity"
             android:exported="false" />
         <activity
-            android:name=".literasiActivity"
+            android:name="com.profil.smpn2tegal.literasiActivity"
             android:exported="false" />
         <activity
-            android:name=".futsalActivity"
+            android:name="com.profil.smpn2tegal.futsalActivity"
             android:exported="false" />
         <activity
-            android:name=".karateActivity"
+            android:name="com.profil.smpn2tegal.karateActivity"
             android:exported="false" />
         <activity
-            android:name=".SeniTariActivity"
+            android:name="com.profil.smpn2tegal.SeniTariActivity"
             android:exported="false" />
         <activity
-            android:name=".sosialActivity"
+            android:name="com.profil.smpn2tegal.sosialActivity"
             android:exported="false" />
         <activity
-            android:name=".karnavalActivity"
+            android:name="com.profil.smpn2tegal.karnavalActivity"
             android:exported="false" />
         <activity
-            android:name=".PerpusActivity"
+            android:name="com.profil.smpn2tegal.PerpusActivity"
             android:exported="false" />
         <activity
-            android:name=".lapkomActivity"
+            android:name="com.profil.smpn2tegal.lapkomActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.profil.smpn2tegal.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".pmrActivity"
+            android:name="com.profil.smpn2tegal.pmrActivity"
             android:exported="false" />
         <activity
-            android:name=".pramukaActivity"
+            android:name="com.profil.smpn2tegal.pramukaActivity"
             android:exported="false" />
         <activity
-            android:name=".buku9Activity"
+            android:name="com.profil.smpn2tegal.buku9Activity"
             android:exported="false" />
         <activity
-            android:name=".buku8Activity"
+            android:name="com.profil.smpn2tegal.buku8Activity"
             android:exported="false" />
         <activity
-            android:name=".buku7Activity"
+            android:name="com.profil.smpn2tegal.buku7Activity"
             android:exported="false" />
         <activity
-            android:name=".galeriActivity"
+            android:name="com.profil.smpn2tegal.galeriActivity"
             android:exported="false" />
         <activity
-            android:name=".fasilitasActivity"
+            android:name="com.profil.smpn2tegal.fasilitasActivity"
             android:exported="false" />
         <activity
-            android:name=".ekskulActivity"
+            android:name="com.profil.smpn2tegal.ekskulActivity"
             android:exported="false" />
         <activity
-            android:name=".profileActivity"
+            android:name="com.profil.smpn2tegal.profileActivity"
             android:exported="false" />
         <activity
-            android:name=".GuruActivity"
+            android:name="com.profil.smpn2tegal.GuruActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.profil.smpn2tegal.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
